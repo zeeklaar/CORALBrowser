@@ -1,0 +1,15 @@
+INPUT(
+./debug/main.o
+./debug/mainwindow.o
+./debug/browsertab.o
+./debug/customwebpage.o
+./debug/tabtimer.o
+./debug/timehelper.o
+./debug/login.o
+./debug/listenthread.o
+./debug/moc_mainwindow.o
+./debug/moc_browsertab.o
+./debug/moc_tabtimer.o
+./debug/moc_login.o
+./debug/moc_listenthread.o
+);

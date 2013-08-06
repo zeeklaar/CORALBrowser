@@ -1,0 +1,15 @@
+INPUT(
+./release/main.o
+./release/mainwindow.o
+./release/browsertab.o
+./release/customwebpage.o
+./release/tabtimer.o
+./release/timehelper.o
+./release/login.o
+./release/listenthread.o
+./release/moc_mainwindow.o
+./release/moc_browsertab.o
+./release/moc_tabtimer.o
+./release/moc_login.o
+./release/moc_listenthread.o
+);
