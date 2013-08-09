@@ -16,7 +16,7 @@ void ListenThread::run()
         this->sleep(1);
 
         //emit a signal to tell the NetworkHandler to check the connection
-        emit tryConnection();
+        //emit tryConnection();
     }
 }
 

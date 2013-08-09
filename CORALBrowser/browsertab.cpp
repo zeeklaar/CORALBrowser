@@ -49,7 +49,7 @@ void BrowserTab::generateUI()
 
     webView = new QWebView(currentTabWidget);
     webView->setPage(new CustomWebPage(currentTabWidget));
-    webView->setUrl(QUrl("http://www.google.com"));
+    //webView->setUrl(QUrl("http://www.google.com"));
     webView->settings()->setAttribute(QWebSettings::PluginsEnabled, true);
     webView->page()->setLinkDelegationPolicy(QWebPage::DelegateAllLinks); //THIS IS REQUIRED FOR THE LINKCLICKED SIGNAL TO FIRE!
     //TODO: Reimplement the context menu so that events will get handled
